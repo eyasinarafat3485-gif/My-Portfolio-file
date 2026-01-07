@@ -253,10 +253,15 @@ footer .footer-container{
 }
 
 #icon-image{
-    height: 50px;
-    width: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1);
+    gap: 15px;
+    height: 60px;
+    width: 60px;
     justify-items: center;
     align-items: center;
+    
+
 }
 
 .footer-container form input[type="text"], .footer-container form textarea{
