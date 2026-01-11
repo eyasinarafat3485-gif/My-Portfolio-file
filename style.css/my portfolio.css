@@ -19,6 +19,9 @@
     color: orangered;
 
 }
+.color-lightblue{
+    color: rgb(9, 173, 249)
+}
 
 .btn{
     background-color: orangered;
@@ -30,6 +33,10 @@
     color: white;
     cursor: pointer;
 }
+.btn:hover{
+    color: green;
+}
+
 .section-heading{
     max-width: 827px;
     text-align: center;
@@ -41,6 +48,7 @@
     font-size: 30;
     font-weight: bold;
     margin-bottom: 30px;
+    
 }
 .section-heading p{
     font-size: 18px;
@@ -60,7 +68,7 @@
 header{
     background-color:#fff8f3;
     background: url("../images/developer.png"), url("../images/header_bg.png") ,#fff8f3;
-    background-position: 23px 38px , bottom right;
+    background-position: 23px 70px , bottom right;
     
     padding-top: 50px;
     background-repeat: no-repeat;
@@ -85,8 +93,12 @@ nav .menu{
 }
 nav .menu a{
     font-size: 20px;
+    font-weight: 600;
     color: #474747;
     text-decoration: none;
+}
+.menu a:hover{
+    color: blue;
 }
 
 #banner{
@@ -168,7 +180,7 @@ nav .menu a{
     border: 1px solid orangered;
     border-radius: 3px;
     max-width: 267px;
-    box-shadow: 0 6px 50px 0 #0000004e ;
+    box-shadow: 0 6px 50px 0 #00000032 ;
 
 }
 .skill-cards img{
@@ -187,6 +199,7 @@ nav .menu a{
     color: #757575;
     
 }
+
 #resume .resume-container{
     width: 71%;
     max-width: 1140px;
@@ -255,8 +268,8 @@ footer .footer-container{
 #icon-image{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    max-width: 270px;
+    gap: 10px;
+    max-width: 310px;
 }
 #icon-image a{
     height: 50px;
@@ -269,6 +282,14 @@ footer .footer-container{
     text-decoration: none;
     font-size: 18px;
 
+}
+#icon-image a:hover{
+    color: brown;
+    background-color:gray;
+
+}
+#icon-image a:visited{
+    color: blue;
 }
 
 .footer-container form input[type="text"], .footer-container form textarea{
@@ -292,6 +313,7 @@ footer .footer-container{
     padding: 10px;
 
 }
+
 
 
 
