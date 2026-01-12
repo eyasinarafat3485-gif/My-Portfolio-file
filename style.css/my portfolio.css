@@ -33,6 +33,11 @@
     color: white;
     cursor: pointer;
 }
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .btn:hover{
     color: green;
 }
@@ -312,6 +317,75 @@ footer .footer-container{
     margin-top: 50px;
     padding: 10px;
 
+}
+.hide{
+    display: none !important;
+}
+@media screen and (max-width:576px) {
+    #skills .skills-container {
+    width: 95%;
+     }
+    .section-heading h2 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+    #about , #skills , #resume{
+    padding-top: 60px;
+}   
+  #about .about-container{
+    padding: 20px;
+}
+  #skills .skills-container .skills-box {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+#about .about-container .about-info , footer .footer-container ,#resume .resume-container , nav , #banner{
+    display: flex;
+    flex-direction: column;
+}
+.btn-group{
+    justify-content: center;
+}
+nav{
+    gap: 20px;
+}
+nav .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header {
+    background-color: #fff8f3;
+    background:  url(../images/header_bg.png), #fff8f3;
+    background-position: bottom right;
+    
+    background-repeat: no-repeat;
+}
+#banner{
+    margin: 20px;
+    gap: 25px;
+    text-align: center;
+}
+#banner .banner-image img{
+    width: 100%;
+}
+#banner .banner-content h1{
+    font-size: 44px;
+}
+#resume .resume-container{
+    margin-top: 60px;
+}
+.resume-card{
+    margin-right: 10px;
+}
+ .skills-box .skill-cards{
+    max-width: 100%;
+ }
+ .footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+
+}
 }
 
 
